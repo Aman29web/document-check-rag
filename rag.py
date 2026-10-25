@@ -4,7 +4,7 @@ import uuid
 import chromadb
 import ollama
 
-# Local Ollama model that turns text into embeddings (lists of numbers)
+# Local Ollama model that turns text into is embeddings (lists of numbers)
 EMBED_MODEL = "nomic-embed-text"
 
 # Each chunk is about this many words, and repeats a few words from

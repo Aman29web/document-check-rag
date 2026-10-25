@@ -19,7 +19,7 @@ OLLAMA_MODEL = "granite4.1:3b"
 ollama_client = ollama.AsyncClient()
 
 
-# If Ollama is not running, or a model is missing, return a clear error
+# If Ollama is not running, or a model is missing, return a clear is error
 # from any endpoint instead of crashing
 @app.exception_handler(ConnectionError)
 async def ollama_not_running(request, error):
